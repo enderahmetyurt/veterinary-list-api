@@ -1,7 +1,7 @@
 {
   "name": "veterinary-list-api",
   "description": "Veterinary List REST API",
-  "repository": "https://github.com/leonardofaria/todo-api",
+  "repository": "https://github.com/enderahmetyurt/veterinary-list-api",
   "addons": [
     "heroku-postgresql:hobby-dev"
   ],
