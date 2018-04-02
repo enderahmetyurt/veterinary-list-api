@@ -1,0 +1,14 @@
+{
+  "name": "veterinary-list-api",
+  "description": "Veterinary List REST API",
+  "repository": "https://github.com/leonardofaria/todo-api",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "RACK_ENV": "production"
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate && bundle exec rake db:seed"
+  }
+}
