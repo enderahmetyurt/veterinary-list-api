@@ -7,7 +7,7 @@ List from https://github.com/enderahmetyurt/veterinary-list
 https://pacific-basin-88106.herokuapp.com/veterinaries
 https://pacific-basin-88106.herokuapp.com/search?name=adem
 https://pacific-basin-88106.herokuapp.com/search?city=ordu
-https://pacific-basin-88106.herokuapp.com/searcy_town=beşiktaş
+https://pacific-basin-88106.herokuapp.com/search?town=beşiktaş
 ```
 
 # Request
@@ -187,7 +187,7 @@ https://pacific-basin-88106.herokuapp.com/searcy_town=beşiktaş
 
 # Request
 ```
-/searcy_town=beşiktaş
+/search?town=beşiktaş
 ````
 
 # Response
