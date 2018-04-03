@@ -14,6 +14,7 @@ List from https://github.com/enderahmetyurt/veterinary-list
 ```
 /veterinaries
 ```
+
 # Response
 ```
 [
@@ -121,3 +122,132 @@ List from https://github.com/enderahmetyurt/veterinary-list
   }
 ]
 ```
+
+# Request
+```
+/search?city=ordu
+```
+
+# Response
+```
+[
+  {
+    "id": 4109,
+    "name": "Veteriner Kliniği",
+    "address": "Merkez, Meydan Sok.",
+    "city": "Ordu",
+    "town": "Akkuş",
+    "telephone": "0452 611 20 43",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 4110,
+    "name": "Veteriner Kliniği",
+    "address": "Belirtilmemiş",
+    "city": "Ordu",
+    "town": "Aybastı",
+    "telephone": "0452 714 14 21",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 4111,
+    "name": "Cömert Veteriner Kliniği",
+    "address": "Fevzi Şenel Cad. Merkez Mah. No:9",
+    "city": "Ordu",
+    "town": "Çatalpınar",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 4112,
+    "name": "Özel Çaybaşı Veteriner Kliniği",
+    "address": "Belirtilmemiş",
+    "city": "Ordu",
+    "town": "Çaybaşı",
+    "telephone": "0452 391 30 64",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 4113,
+    "name": "Çınar Veteriner Kliniği",
+    "address": "M.Kemalpaşa Mah. Reşadiye Cad.",
+    "city": "Ordu",
+    "town": "Fatsa",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  ...
+]
+```
+
+# Request
+```
+/searcy_town=beşiktaş
+````
+
+# Response
+```
+  [
+  {
+    "id": 2259,
+    "name": "Anemon Veteriner Kliniği",
+    "address": "Akatlar Mah. Zeytinoğlu Cad. No:23/1",
+    "city": "Istanbul",
+    "town": "Beşiktaş",
+    "telephone": "0212 352 00 80",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 2260,
+    "name": "Animal Doctors Veteriner Kliniği",
+    "address": "Ortaköy, Muallim Naci Işık Apt. No:39/3",
+    "city": "Istanbul",
+    "town": "Beşiktaş",
+    "telephone": "0212 261 51 22",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 2261,
+    "name": "Animate Veteriner Kliniği",
+    "address": "3.Levent, Sülün, 12 Aralık",
+    "city": "Istanbul",
+    "town": "Beşiktaş",
+    "telephone": "0212 282 38 38",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 2262,
+    "name": "Arı Veteriner Kliniği",
+    "address": "4.Gazeteciler Sit. Ebulula Cad. 3. Levent",
+    "city": "Istanbul",
+    "town": "Beşiktaş",
+    "telephone": "0212 281 73 54",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 2263,
+    "name": "Barbaros Veteriner Kliniği",
+    "address": "Cihannüma Mah. Babaros Bulvarı Bostanveli Sok. No:10/A",
+    "city": "Istanbul",
+    "town": "Beşiktaş",
+    "telephone": "0212 227 36 77",
+    "website": "",
+    "email": ""
+  },
+  ...
+]
+```
+
+# Todos
+- Improve like search query
+- Add tests
+- Handle city or town that starts with Turkish character
