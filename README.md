@@ -4,10 +4,10 @@ List from https://github.com/enderahmetyurt/veterinary-list
 
 # Endpoints
 ```
-https://pacific-basin-88106.herokuapp.com/veterinaries
-https://pacific-basin-88106.herokuapp.com/search?name=adem
-https://pacific-basin-88106.herokuapp.com/search?city=ordu
-https://pacific-basin-88106.herokuapp.com/search?town=beşiktaş
+http://veterinaries.enderahmetyurt.com/veterinaries
+http://veterinaries.enderahmetyurt.com/search?name=adem
+http://veterinaries.enderahmetyurt.com/search?city=ordu
+http://veterinaries.enderahmetyurt.com/search?town=beşiktaş
 ```
 
 # Request
