@@ -25,3 +25,8 @@ get '/search/?:param?' do
 
   veterinaries.to_json
 end
+
+get '/' do
+  content_type :html
+  send_file './public/index.html'
+end
