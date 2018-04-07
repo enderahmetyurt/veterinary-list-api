@@ -13,3 +13,6 @@ gem 'rake'
 group :development do
   gem 'shotgun'
 end
+
+gem 'rspec'
+gem 'rack-test'
