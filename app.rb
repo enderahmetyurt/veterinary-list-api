@@ -5,13 +5,15 @@ require './config/environments'
 require './config/cors'
 require './models/veterinary'
 require 'json'
+require 'will_paginate'
+require 'will_paginate/active_record'
 
 before do
   content_type :json
 end
 
 get '/veterinaries' do
-  Veterinary.all.to_json
+  Veterinary.paginate(page: params[:page], per_page: 20).to_json
 end
 
 get '/search/?:param?' do
@@ -23,7 +25,7 @@ get '/search/?:param?' do
                   Veterinary.where(town: params[:town].titleize)
                 end
 
-  veterinaries.to_json
+  veterinaries.paginate(page: params[:page], per_page: 20).to_json
 end
 
 get '/' do
