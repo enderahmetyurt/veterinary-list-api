@@ -55,6 +55,7 @@ GEM
     tilt (2.0.8)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    will_paginate (3.1.6)
 
 PLATFORMS
   ruby
@@ -70,6 +71,7 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   sinatra-cross_origin
+  will_paginate (~> 3.1.1)
 
 RUBY VERSION
    ruby 2.5.0p0
