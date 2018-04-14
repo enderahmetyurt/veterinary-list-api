@@ -13,7 +13,7 @@ before do
 end
 
 get '/veterinaries' do
-  Veterinary.paginate(page: params[:page], per_page: 20).to_json
+  Veterinary.paginate(page: params[:page], per_page: 20).order(:id).to_json
 end
 
 get '/search/?:param?' do
@@ -25,7 +25,7 @@ get '/search/?:param?' do
                   Veterinary.where(town: params[:town].titleize)
                 end
 
-  veterinaries.paginate(page: params[:page], per_page: 20).to_json
+  veterinaries.paginate(page: params[:page], per_page: 20).order(:id).to_json
 end
 
 get '/' do
