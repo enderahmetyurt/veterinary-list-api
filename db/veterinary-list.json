@@ -1,3 +1,4 @@
+// 14.04.2018
 [
   {
     "name": "Adem Ünüvar Veteriner Kliniği",
@@ -9531,15 +9532,6 @@
     "email": ""
   },
   {
-    "name": "Bataray Veteriner Kliniği",
-    "address": "Genç Cad. Malazgirt Sok.",
-    "city": "Bingol",
-    "town": "Merkez",
-    "telephone": "0426 213 20 28",
-    "website": "",
-    "email": ""
-  },
-  {
     "name": "Begsan Veteriner Kliniği",
     "address": "Genç Cad. Şişli Sok. No:42/11",
     "city": "Bingol",
@@ -9558,17 +9550,8 @@
     "email": ""
   },
   {
-    "name": "Eser Veteriner Kliniği",
-    "address": "İnönü Mah. Maden Sok. No:17",
-    "city": "Bingol",
-    "town": "Merkez",
-    "telephone": "0426 213 42 71",
-    "website": "",
-    "email": ""
-  },
-  {
-    "name": "Özel Selimoğlu Veteriner Kliniği",
-    "address": "İnönü Mah. Kültür Cad. Fırat Sok. No:7",
+    "name": "Sancak Veteriner Kliniği",
+    "address": "Yenişehir Mah. Hürriyet Cad. No:2/B",
     "city": "Bingol",
     "town": "Merkez",
     "telephone": "Belirtilmemiş",
@@ -9576,8 +9559,8 @@
     "email": ""
   },
   {
-    "name": "Sancak Veteriner Kliniği",
-    "address": "Yenişehir Mah. Hürriyet Cad. No:2/B",
+    "name": "Soysal Veteriner Kliniği",
+    "address": "İnönü Mah. Kültür Cad. No:109/B",
     "city": "Bingol",
     "town": "Merkez",
     "telephone": "Belirtilmemiş",
@@ -11399,6 +11382,15 @@
     "city": "Bursa",
     "town": "İznik",
     "telephone": "0224 757 81 34",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Savaş Veteriner Kliniği",
+    "address": "Yeni Mah. Maltepe Cad. Kaymakam S.Taşkın Sok. No:13",
+    "city": "Bursa",
+    "town": "İznik",
+    "telephone": "Belirtilmemiş",
     "website": "",
     "email": ""
   },
@@ -22176,6 +22168,24 @@
     "email": ""
   },
   {
+    "name": "Vet Pozitif Veteriner Kliniği",
+    "address": "Fener Kalamış Cad. Cengiz Topel Sok. No:2/A",
+    "city": "Istanbul",
+    "town": "Kadıköy",
+    "telephone": "0216 418 66 66",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Vet Zone Veteriner Kliniği",
+    "address": "Kaya Sultan Sok. No:16/B Kozyatağı",
+    "city": "Istanbul",
+    "town": "Kadıköy",
+    "telephone": "0216 410 41 78",
+    "website": "",
+    "email": ""
+  },
+  {
     "name": "Vitalis Veteriner Kliniği",
     "address": "Bostancı Dr.Kemal Akgüder",
     "city": "Istanbul",
@@ -25763,6 +25773,15 @@
     "city": "Izmir",
     "town": "Torbalı",
     "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Candan Veteriner Kliniği",
+    "address": "Ertuğrul Mah. 3103 Sok. No:25/A",
+    "city": "Izmir",
+    "town": "Torbalı",
+    "telephone": "0232 855 55 59",
     "website": "",
     "email": ""
   },
@@ -35280,6 +35299,15 @@
     "email": ""
   },
   {
+    "name": "Yalı Veteriner Kliniği",
+    "address": "Kızılağaç Mah. Araplar Küme Evleri No:9/B Yalı",
+    "city": "Mugla",
+    "town": "Bodrum",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
     "name": "Veteriner Kliniği",
     "address": "Atatürk Cad. No:63",
     "city": "Mugla",
@@ -40456,7 +40484,7 @@
   },
   {
     "name": "Adnan Öztürk Veteriner Kliniği",
-    "address": "Sağlık 4",
+    "address": "Sağlık Mah. Edirne 4 Sok. No:10/B",
     "city": "Tekirdag",
     "town": "Çorlu",
     "telephone": "0282 686 17 23",
@@ -40464,7 +40492,34 @@
     "email": ""
   },
   {
-    "name": "Didem Alaçam Veteriner Kliniği",
+    "name": "Cumhur Narçın Veteriner Kliniği",
+    "address": "Şeyh Sinan Mah. Eski Sanayi Çar. Garaj 2 Sok. No:8",
+    "city": "Tekirdag",
+    "town": "Çorlu",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Çorlu Veteriner Kliniği",
+    "address": "Hürriyet Mah. Çamlıbel Cad. No:19/C",
+    "city": "Tekirdag",
+    "town": "Çorlu",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Duru Veteriner Kliniği",
+    "address": "Kazımiye Mah. Barboros Cad.  1.Sok No:5",
+    "city": "Tekirdag",
+    "town": "Çorlu",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "İlgi Veteriner Kliniği",
     "address": "Reşadiye Mah. Şinasi Kurşun Cad. No:100/2",
     "city": "Tekirdag",
     "town": "Çorlu",
@@ -40474,16 +40529,7 @@
   },
   {
     "name": "Kadir Er Veteriner Kliniği",
-    "address": "Hatip Omurtak Pelen İş Merk.",
-    "city": "Tekirdag",
-    "town": "Çorlu",
-    "telephone": "0282 659 91 63",
-    "website": "",
-    "email": ""
-  },
-  {
-    "name": "Mert Günel Veteriner Kliniği",
-    "address": "Belirtilmemiş",
+    "address": "Atatürk Cad. Köy Konağı No:2 Karamehmet Köyü",
     "city": "Tekirdag",
     "town": "Çorlu",
     "telephone": "Belirtilmemiş",
@@ -40492,10 +40538,10 @@
   },
   {
     "name": "Öncü Veteriner Kliniği",
-    "address": "Alipaşa Cad. No:19/C",
+    "address": "Kazımiye Mah. Su deposu altı 2.Sok. No:20",
     "city": "Tekirdag",
     "town": "Çorlu",
-    "telephone": "0282 652 47 30",
+    "telephone": "Belirtilmemiş",
     "website": "",
     "email": ""
   },
@@ -40510,19 +40556,10 @@
   },
   {
     "name": "Semih Yamaç Veteriner Kliniği",
-    "address": "Atatürk",
+    "address": "Atatürk Bulvarı No:9/2 Ulaş Beldesi",
     "city": "Tekirdag",
     "town": "Çorlu",
     "telephone": "0282 654 35 46",
-    "website": "",
-    "email": ""
-  },
-  {
-    "name": "Türkoğlu Veteriner Kliniği",
-    "address": "Reşadiye Mandıracı 3",
-    "city": "Tekirdag",
-    "town": "Çorlu",
-    "telephone": "0282 654 89 89",
     "website": "",
     "email": ""
   },
@@ -43012,7 +43049,7 @@
   },
   {
     "name": "Dünya Veteriner Kliniği",
-    "address": "Merkez İstasyon",
+    "address": "İstasyon Cad. Özalp",
     "city": "Van",
     "town": "Özalp",
     "telephone": "Belirtilmemiş",
@@ -43021,7 +43058,16 @@
   },
   {
     "name": "Nur Veteriner Kliniği",
-    "address": "Belirtilmemiş",
+    "address": "Cumhuriyet Cad. Abdulcebbar Basut Sok. No:11 Özalp",
+    "city": "Van",
+    "town": "Özalp",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Nurullah Veteriner Kliniği",
+    "address": "Abdulcabbar Sok. No:15 Özalp",
     "city": "Van",
     "town": "Özalp",
     "telephone": "Belirtilmemiş",
@@ -43030,10 +43076,19 @@
   },
   {
     "name": "Özalp Veteriner Kliniği",
-    "address": "Belirtilmemiş",
+    "address": "Cumhuriyet Cad. Anzaflıoğlu Sok. No:13",
     "city": "Van",
     "town": "Özalp",
-    "telephone": "0432 712 23 81",
+    "telephone": "Belirtilmemiş",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Vet-Pa Veteriner Kliniği",
+    "address": "Cumhuriyet Mah. Eczacılar Sok. No:22",
+    "city": "Van",
+    "town": "Özalp",
+    "telephone": "Belirtilmemiş",
     "website": "",
     "email": ""
   },
