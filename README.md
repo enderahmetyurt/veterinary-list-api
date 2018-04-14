@@ -4,7 +4,7 @@ List from https://github.com/enderahmetyurt/veterinary-list
 
 Source: https://veteriner.co/veteriner-klinikleri
 
-Last update for data: 01.12.2017
+Last update for data: 14.04.2018
 
 # Endpoints
 ```
