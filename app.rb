@@ -20,9 +20,9 @@ get '/search/?:param?' do
   veterinaries = if params[:name]
                   Veterinary.where("name LIKE ?", "%#{params[:name]}%")
                 elsif params[:city]
-                  Veterinary.where(city: params[:city].titleize)
+                  Veterinary.where(city: params[:city].capitalize)
                 elsif params[:town]
-                  Veterinary.where(town: params[:town].titleize)
+                  Veterinary.where(town: params[:town].capitalize)
                 end
 
   veterinaries.paginate(page: params[:page], per_page: 20).order(:id).to_json
