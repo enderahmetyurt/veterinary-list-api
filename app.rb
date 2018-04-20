@@ -17,13 +17,11 @@ get '/veterinaries' do
 end
 
 get '/search/?:param?' do
-  veterinaries = if params[:name]
-                  Veterinary.where("name LIKE ?", "%#{params[:name]}%")
-                elsif params[:city]
-                  Veterinary.where(city: params[:city].capitalize)
-                elsif params[:town]
-                  Veterinary.where(town: params[:town].capitalize)
-                end
+  veterinaries = Veterinary.where(nil)
+  search_params(params).each do |key, value|
+    key = "#{key}_search".to_sym
+    veterinaries = veterinaries.send(key, value) if value.present?
+  end
 
   veterinaries.paginate(page: params[:page], per_page: 20).order(:id).to_json
 end
@@ -31,4 +29,20 @@ end
 get '/' do
   content_type :html
   send_file './public/index.html'
+end
+
+def name_search(value)
+  where("name LIKE ?", "%#{value}%")
+end
+
+def city_search(value)
+  where(city: value.capitalize)
+end
+
+def town_search(value)
+  where(town: value.capitalize)
+end
+
+def search_params(params)
+  params.slice(:name, :city, :town)
 end
