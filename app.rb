@@ -10,6 +10,7 @@ require 'will_paginate/active_record'
 
 before do
   content_type :json
+  headers 'Access-Control-Allow-Origin' => '*'
 end
 
 get '/veterinaries' do
