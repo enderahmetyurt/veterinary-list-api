@@ -17,7 +17,10 @@ get '/veterinaries' do
 end
 
 get '/search/?:param?' do
-  veterinaries = Veterinary.get_list(params)
+  veterinaries = Veterinary.where(nil)
+  search_params(params).each do |key, value|
+    veterinaries = veterinaries.public_send(key, value) if value.present?
+  end
 
   veterinaries.paginate(page: params[:page], per_page: 20).order(:id).to_json
 end
@@ -25,4 +28,8 @@ end
 get '/' do
   content_type :html
   send_file './public/index.html'
+end
+
+def search_params(params)
+  params.slice(:name_like, :city, :town)
 end
