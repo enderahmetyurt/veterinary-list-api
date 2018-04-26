@@ -22,7 +22,8 @@ get '/search/?:param?' do
     veterinaries = veterinaries.public_send(key, value) if value.present?
   end
 
-  veterinaries.paginate(page: params[:page], per_page: 20).order(:id).to_json
+  veterinaries = veterinaries.paginate(page: params[:page], per_page: 20) if params[:page]
+  veterinaries.order(:id).to_json
 end
 
 get '/' do
