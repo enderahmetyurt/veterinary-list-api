@@ -10,10 +10,11 @@ Last update for data: 14.04.2018
 ```
 http://veterinaries.enderahmetyurt.com/veterinaries
 http://veterinaries.enderahmetyurt.com/veterinaries?page=15
-http://veterinaries.enderahmetyurt.com/search?name=adem
+http://veterinaries.enderahmetyurt.com/search?vet_name=adem
 http://veterinaries.enderahmetyurt.com/search?city=ordu
 http://veterinaries.enderahmetyurt.com/search?town=beşiktaş
 http://veterinaries.enderahmetyurt.com/search?town=beşiktaş&page=2
+http://veterinaries.enderahmetyurt.com/search?vet_name=adem&city=istanbul
 ```
 
 # Request
@@ -80,7 +81,7 @@ http://veterinaries.enderahmetyurt.com/search?town=beşiktaş&page=2
 
 # Request
 ```
-/search?name=adem
+/search?vet_name=adem
 ```
 
 # Response
@@ -252,6 +253,38 @@ http://veterinaries.enderahmetyurt.com/search?town=beşiktaş&page=2
   ...
 ]
 ```
+# Request
+```
+/search?vet_name=adem&city=istanbul
+````
+
+# Response
+```
+[
+  {
+    "id": 2380,
+    "name": "Acıbadem Veteriner Kliniği",
+    "address": "Acıbadem, Necipbey",
+    "city": "Istanbul",
+    "town": "Kadıköy",
+    "telephone": "0216 326 24 53",
+    "website": "",
+    "email": ""
+  },
+  {
+    "id": 2577,
+    "name": "Akademi Veteriner Kliniği",
+    "address": "Kuleli Mah. Çengelköy Cad. No:42/C",
+    "city": "Istanbul",
+    "town": "Üsküdar",
+    "telephone": "0216 422 37 88",
+    "website": "",
+    "email": ""
+  }
+]
+````
+
+
 
 # Todos
 - Improve like search query
