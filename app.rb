@@ -32,5 +32,5 @@ get '/' do
 end
 
 def search_params(params)
-  params.slice(:name_like, :city, :town)
+  params.slice(:vet_name, :city, :town)
 end
