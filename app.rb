@@ -8,8 +8,13 @@ require 'json'
 require 'will_paginate'
 require 'will_paginate/active_record'
 
+configure do
+  enable :cross_origin
+end
+
 before do
   content_type :json
+  response.headers['Access-Control-Allow-Origin'] = '*'
 end
 
 get '/veterinaries' do
