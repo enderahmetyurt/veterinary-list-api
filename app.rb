@@ -9,7 +9,7 @@ require 'will_paginate'
 require 'will_paginate/active_record'
 
 configure do
-    enable :cross_origin
+  enable :cross_origin
 end
 
 before do
