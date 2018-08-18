@@ -17,8 +17,10 @@ before do
   response.headers['Access-Control-Allow-Origin'] = '*'
 end
 
-get '/veterinaries' do
-  Veterinary.paginate(page: params[:page], per_page: 20).order(:id).to_json
+get '/veterinaries/?:param?' do
+  per_page_data_count = params[:count] ? params[:count] : 20
+
+  Veterinary.paginate(page: params[:page], per_page: per_page_data_count).order(:id).to_json
 end
 
 get '/search/?:param?' do
@@ -27,7 +29,9 @@ get '/search/?:param?' do
     veterinaries = veterinaries.public_send(key, value) if value.present?
   end
 
-  veterinaries = veterinaries.paginate(page: params[:page], per_page: 20) if params[:page]
+  per_page_data_count = params[:count] ? params[:count] : 20
+
+  veterinaries = veterinaries.paginate(page: params[:page], per_page: per_page_data_count)
   veterinaries.order(:id).to_json
 end
 
