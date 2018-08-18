@@ -13,7 +13,7 @@ http://veterinaries.enderahmetyurt.com/veterinaries?page=15
 http://veterinaries.enderahmetyurt.com/search?vet_name=adem
 http://veterinaries.enderahmetyurt.com/search?city=ordu
 http://veterinaries.enderahmetyurt.com/search?town=beşiktaş
-http://veterinaries.enderahmetyurt.com/search?town=beşiktaş&page=2
+http://veterinaries.enderahmetyurt.com/search?town=beşiktaş&page=2&count=5
 http://veterinaries.enderahmetyurt.com/search?vet_name=adem&city=istanbul
 ```
 
