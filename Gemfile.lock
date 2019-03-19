@@ -26,6 +26,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rake (12.3.2)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -63,8 +64,8 @@ DEPENDENCIES
   activerecord
   json
   pg
-  rack (>= 2.0.6)
   rack-test
+  rake
   rspec
   shotgun
   sinatra (~> 2.0.2)
