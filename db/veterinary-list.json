@@ -1,4 +1,5 @@
-// 14.04.2018
+// 19.03.2019
+
 [
   {
     "name": "Adem Ünüvar Veteriner Kliniği",
@@ -3444,6 +3445,15 @@
     "city": "Ankara",
     "town": "Çubuk",
     "telephone": "0312 426 36 58",
+    "website": "",
+    "email": ""
+  },
+  {
+    "name": "Dorukgiller Veteriner Kliniği",
+    "address": "Harbiye Mah. Tavuskuşu Sok. 17/B Dikmen",
+    "city": "Ankara",
+    "town": "Çubuk",
+    "telephone": "0312 481 30 80",
     "website": "",
     "email": ""
   },
@@ -31136,7 +31146,7 @@
     "address": "Karaman Cad. İpekçi Sok. No:27/A",
     "city": "Konya",
     "town": "Meram",
-    "telephone": "0332 353 23 23",
+    "telephone": "Belirtilmemiş",
     "website": "",
     "email": ""
   },
