@@ -1,11 +1,11 @@
-ruby '2.5.0'
+ruby '2.7.0'
 
 source 'https://rubygems.org'
 
 gem 'sinatra', '~> 2.0.2'
 gem 'sinatra-cross_origin'
 gem 'json'
-gem 'activerecord'
+gem "activesupport", ">= 5.2.4.3"
 gem 'pg'
 gem 'sinatra-activerecord'
 gem 'rake'
