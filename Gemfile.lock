@@ -21,12 +21,11 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     pg (1.2.3)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -66,8 +65,8 @@ DEPENDENCIES
   activesupport (>= 5.2.4.3)
   json
   pg
+  rack (>= 2.2.3)
   rack-test
-  rake
   rspec
   shotgun
   sinatra (~> 2.0.2)

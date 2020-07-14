@@ -8,7 +8,7 @@ gem 'json'
 gem "activesupport", ">= 5.2.4.3"
 gem 'pg'
 gem 'sinatra-activerecord'
-gem 'rake'
+gem "rack", ">= 2.2.3"
 gem 'will_paginate', '~> 3.1.1'
 
 group :development do
