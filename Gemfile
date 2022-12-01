@@ -2,7 +2,7 @@ ruby '2.7.0'
 
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 2.0.2'
+gem 'sinatra', '~> 2.2.3'
 gem 'sinatra-cross_origin'
 gem 'json'
 gem "activesupport", ">= 5.2.4.3"
